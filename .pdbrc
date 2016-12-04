@@ -1,0 +1,7 @@
+import pdb
+from vimpdb import preloop, precmd, postcmd
+
+pdb.Pdb.preloop = preloop
+pdb.Pdb.precmd = precmd
+pdb.Pdb.postcmd = postcmd
+

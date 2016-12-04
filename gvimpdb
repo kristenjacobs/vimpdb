@@ -1,0 +1,1 @@
+gvim -R --servername VIMPDB -c "ConqueTermSplit python -m pdb $*"
